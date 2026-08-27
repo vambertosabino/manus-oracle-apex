@@ -1,21 +1,12 @@
-# Contexto do Projeto
+# Contexto operacional
+Projeto orientado a Oracle APEX e FONAR Digital. O repositório é uma base de conhecimento e orquestração para o Manus.
 
-Projeto: FONAR Digital
-Tecnologia principal: Oracle APEX
-Banco: Oracle Database
-Backend: PL/SQL
-Integração: ORDS / REST APIs
+## Fontes
+- `docs/FONAR/`: documentação funcional e técnica do FONAR.
+- `database/BD_FONAR_250826.sql`: estrutura de banco disponibilizada.
+- `references/`: regras técnicas.
+- `prompts/`: comandos especializados.
+- `agents/`: especialistas.
+- `workflows/`: pipelines.
 
-## Objetivo
-
-Manutenção e evolução do sistema preservando compatibilidade com a estrutura existente.
-
-## Prioridades
-
-1. Não quebrar funcionalidades existentes.
-2. Não inventar estrutura.
-3. Reutilizar componentes existentes.
-4. Segurança.
-5. Performance.
-6. Responsividade.
-7. Manutenibilidade.
+Quando houver conflito, evidência específica do projeto prevalece sobre conhecimento genérico.

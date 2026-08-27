@@ -1,31 +1,10 @@
-# Regras de desenvolvimento Oracle APEX
+# Regras Oracle APEX
+Priorize Universal Theme, componentes nativos, bind variables e alterações incrementais.
+Ao orientar alteração, informe quando possível:
+`App Builder > Aplicação > Página > Região > Componente`.
 
-Sempre identificar:
-
-- Aplicação
-- Página
-- Região
-- Item
-- Botão
-- Processo
-- Dynamic Action
-- Validação
-- Authorization Scheme
-
-Ao propor alteração, responder no padrão:
-
-## Local
-Page Designer > Página > Região > Componente
-
-## Alteração
-Descrição objetiva.
-
-## Código
-Código completo.
-
-## Validação
-Como testar.
-
-Nunca inventar nomes de itens ou páginas.
-
-Quando não houver informação suficiente, solicitar ou localizar a estrutura antes de gerar código.
+Antes de criar algo, verifique possibilidade de reutilização.
+Não invente número de página, região, item ou processo.
+Use APIs APEX em vez de manipulação frágil de DOM quando aplicável.
+Considere Session State Protection, Authorization Schemes, escaping, SQL injection, XSS, performance e responsividade.
+Entregue código completo quando as fontes forem suficientes.

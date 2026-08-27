@@ -1,19 +1,8 @@
-Antes de gerar qualquer SQL:
+# Regras de banco Oracle
+Para FONAR, `database/BD_FONAR_250826.sql` é a referência estrutural disponível.
 
-1. Confirmar tabela existente.
-2. Confirmar nome das colunas.
-3. Confirmar tipos de dados.
-4. Confirmar PK e FK.
-5. Confirmar constraints.
-6. Confirmar sequences.
-7. Confirmar triggers.
-8. Verificar dependências.
-
-Não criar tabela nova se a estrutura existente puder ser reutilizada.
-
-Não executar:
-DROP
-TRUNCATE
-DELETE sem WHERE
-
-sem advertência explícita.
+Antes de gerar DDL/DML/PLSQL, confirme: tabela, coluna, datatype, PK, FK, constraints, sequences, triggers e dependências.
+Use bind variables quando aplicável.
+Não executar/propor `DROP`, `TRUNCATE` ou `DELETE` amplo sem alerta, impacto, backup/rollback e autorização apropriada.
+Não criar objeto paralelo quando o existente atender.
+Se a estrutura não puder ser confirmada, declare a limitação.
