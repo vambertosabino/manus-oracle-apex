@@ -1,7 +1,10 @@
-# WORKFLOW — CRIAR PÁGINA APEX
-1. Confirmar finalidade, fonte de dados e permissões.
-2. Consultar banco e padrões APEX existentes.
-3. Definir tipo de página e componentes.
-4. Planejar regiões, itens, processos, validações e autorização.
-5. Implementar com recursos nativos quando possível.
-6. Validar desktop/mobile, segurança, erros e regressão.
+# Workflow /CRIAR-PAGINA
+1. Identificar objetivo e fontes.
+2. Verificar páginas/componentes e estruturas reutilizáveis.
+3. Validar tabelas/colunas se houver banco.
+4. Definir regiões, itens, botões, processos, validações e navegação.
+5. Aplicar segurança e autorização.
+6. Aplicar UI/UX e responsividade.
+7. Gerar passos exatos no Page Designer e código necessário.
+8. Definir testes funcionais e regressivos.
+Não inventar objetos existentes; marcar componentes novos como NOVO.

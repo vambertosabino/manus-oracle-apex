@@ -1,7 +1,6 @@
-# WORKFLOW — AUDITORIA APEX
-1. Definir escopo e fontes.
-2. Revisar arquitetura, banco, código, segurança, performance e UX.
-3. Acionar APEX-AUDITOR para consolidar achados.
-4. Classificar criticidade: crítica, alta, média ou baixa.
-5. Para cada achado: evidência, impacto, correção e validação.
-6. Não afirmar problema sem evidência suficiente.
+# Workflow /AUDITORIA
+Auditar somente com base em evidências disponíveis.
+Cobrir: arquitetura, SQL/PLSQL, APEX, autenticação/autorização, sessão, integrações, performance, UX, responsividade, acessibilidade, manutenção e regressão.
+Classificar achados: CRÍTICO, ALTO, MÉDIO, BAIXO.
+Para cada achado: evidência → impacto → correção → prioridade → teste.
+Não fabricar vulnerabilidades ou defeitos.
