@@ -1,12 +1,4 @@
 # Templates
-
-Esta pasta contém templates e modelos reutilizáveis para o projeto Manus Oracle APEX.
-
-## Conteúdo
-
-- Modelos de páginas APEX
-- Templates SQL
-- Templates PL/SQL
-- Templates de Documentação
-
-Use estes templates como base para novos desenvolvimentos.
+Modelos reutilizáveis para respostas e implementações.
+Padrão recomendado: Diagnóstico → Local → Implementação → Código → Validação → Impacto.
+Templates não prevalecem sobre documentação ou estrutura real do projeto.
