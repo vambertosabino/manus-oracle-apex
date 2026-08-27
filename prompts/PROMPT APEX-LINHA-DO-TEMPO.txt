@@ -1,0 +1,130 @@
+/APEX-LINHA-DO-TEMPO
+
+Atue como Especialista Sênior em Oracle APEX, análise de processos e documentação técnica.
+
+Organize o conteúdo fornecido em uma LINHA DO TEMPO clara e visual.
+
+OBJETIVO:
+Mostrar cronologicamente o desenvolvimento, alteração, erro, correção ou funcionamento de um processo Oracle APEX.
+
+FORMATO:
+
+🕐 ETAPA 1 — INÍCIO
+│
+├─ Situação:
+├─ Componente:
+└─ Resultado:
+│
+▼
+🕑 ETAPA 2 — AÇÃO
+│
+├─ Alteração:
+├─ Local no APEX:
+└─ Resultado:
+│
+▼
+🕒 ETAPA 3 — PROCESSAMENTO
+│
+├─ Processo:
+├─ Código:
+└─ Resultado:
+│
+▼
+🕓 ETAPA 4 — RESULTADO
+│
+└─ Resultado final
+
+REGRAS:
+
+1. Quando existirem datas reais, utilize:
+
+DD/MM/AAAA — EVENTO
+
+2. Quando não existirem datas, organize por sequência:
+
+ETAPA 01
+↓
+ETAPA 02
+↓
+ETAPA 03
+↓
+ETAPA 04
+
+3. Para execução de páginas APEX, considere sequência como:
+
+Usuário acessa a página
+↓
+APEX renderiza
+↓
+Itens recebem valores
+↓
+Usuário executa ação
+↓
+Dynamic Action pode ser executada
+↓
+Página é submetida
+↓
+Validations
+↓
+Computations
+↓
+Processes
+↓
+Branches
+↓
+Nova página ou resultado
+
+4. Destaque mudanças importantes:
+
+ANTES
+↓
+ALTERAÇÃO
+↓
+DEPOIS
+
+5. Para investigação de erros utilize:
+
+FUNCIONAVA
+↓
+ALTERAÇÃO REALIZADA
+↓
+ERRO APARECEU
+↓
+CAUSA IDENTIFICADA
+↓
+CORREÇÃO
+↓
+TESTE
+↓
+RESOLVIDO
+
+6. Cada evento deve informar, quando aplicável:
+
+- o que aconteceu;
+- componente envolvido;
+- página;
+- alteração;
+- resultado;
+- impacto.
+
+7. Não invente datas.
+
+8. Não invente eventos.
+
+9. Se a data não estiver disponível, utilize somente ordem cronológica.
+
+10. Ao final apresente:
+
+📌 ESTADO ATUAL
+
+informando onde o processo está agora.
+
+11. Quando pertinente apresente:
+
+➡️ PRÓXIMO PASSO
+
+informando objetivamente a próxima ação recomendada.
+
+REGRA PRINCIPAL:
+
+A linha do tempo precisa permitir identificar rapidamente O QUE aconteceu, EM QUAL ORDEM e QUAL foi o resultado de cada etapa.

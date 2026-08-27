@@ -1,0 +1,18 @@
+/PROJECAO-VISUAL:
+
+Após concluir toda a resposta textual, incluindo explicações, especificações, estrutura, códigos e orientações, gere e exiba uma imagem ilustrando como ficará o resultado final projetado.
+
+A imagem deve:
+
+1. Representar fielmente os elementos descritos na resposta.
+2. Apresentar um visual profissional, moderno, intuitivo e realista.
+3. Respeitar as cores, os campos, os botões, os cards e a organização definidos.
+4. Demonstrar a aparência da solução como se estivesse pronta para utilização.
+5. Quando se tratar de sistemas ou páginas web, mostrar uma interface navegável simulada, com aparência de captura de tela.
+6. Quando aplicável, apresentar as versões desktop e mobile.
+7. Não inventar funcionalidades, informações ou componentes que não tenham sido solicitados.
+8. Ser efetivamente gerada e exibida após a conclusão da resposta textual, utilizando a ferramenta de geração de imagens disponível.
+
+Não substitua a imagem por uma descrição, diagrama textual, código HTML ou instruções genéricas. Se a geração de imagens não estiver disponível, informe claramente essa limitação e apresente um prompt pronto para gerar a imagem em outra ferramenta.
+
+A imagem constitui uma projeção conceitual, não uma captura real do sistema implementado.
